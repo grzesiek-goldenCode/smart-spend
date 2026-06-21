@@ -5,6 +5,15 @@
   --foreground: #171717;
 }
 
+@theme {
+  --background-image-radial-soft: radial-gradient(
+    circle at 0% 0%,
+    #f0f3ff 0%,
+    #f9f9ff 100%
+  );
+  --color-primary: #00236f;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
